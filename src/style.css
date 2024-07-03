@@ -17,9 +17,27 @@ body {
 .right-side {
   gap: 60%;
   display: flex;
-  padding-left: 30%;
+  padding-left: 15%;
   padding-right: 4%;
   align-items: center;
+  position: relative;
+}
+
+.notify-cart {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.notify {
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 13px;
+  color: white;
+  padding: 1px 4px;
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  left: 66%;
 }
 
 ul {
@@ -71,6 +89,11 @@ li {
   text-transform: uppercase;
   margin-top: 15%;
   font-weight: 600;
+}
+
+.details {
+  color: "grey";
+  line-height: "1.4";
 }
 
 .buttons {
